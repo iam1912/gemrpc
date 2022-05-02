@@ -6,8 +6,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"gemrpc/codec"
-	"gemrpc/server"
 	"io"
 	"log"
 	"net"
@@ -15,6 +13,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/iam1912/gemseries/gemrpc/codec"
+	"github.com/iam1912/gemseries/gemrpc/server"
 )
 
 type Call struct {

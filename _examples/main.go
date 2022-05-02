@@ -2,14 +2,15 @@ package main
 
 import (
 	"context"
-	"gemrpc/client"
-	"gemrpc/registry"
-	"gemrpc/server"
 	"log"
 	"net"
 	"net/http"
 	"sync"
 	"time"
+
+	"github.com/iam1912/gemseries/gemrpc/client"
+	"github.com/iam1912/gemseries/gemrpc/registry"
+	"github.com/iam1912/gemseries/gemrpc/server"
 )
 
 type Foo int

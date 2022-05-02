@@ -2,11 +2,12 @@ package client
 
 import (
 	"fmt"
-	"gemrpc/server"
 	"net"
 	"os"
 	"runtime"
 	"testing"
+
+	"github.com/iam1912/gemseries/gemrpc/server"
 )
 
 func TestXDial(t *testing.T) {

@@ -3,7 +3,6 @@ package server
 import (
 	"errors"
 	"fmt"
-	"gemrpc/codec"
 	"io"
 	"log"
 	"net"
@@ -12,6 +11,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/iam1912/gemseries/gemrpc/codec"
 )
 
 type request struct {

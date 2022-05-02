@@ -1,3 +1,3 @@
-module gemrpc
+module github.com/iam1912/gemseries/gemrpc
 
-go 1.17
+go 1.13

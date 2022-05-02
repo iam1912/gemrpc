@@ -2,10 +2,11 @@ package client
 
 import (
 	"context"
-	"gemrpc/codec"
 	"io"
 	"reflect"
 	"sync"
+
+	"github.com/iam1912/gemseries/gemrpc/codec"
 )
 
 type XClient struct {
